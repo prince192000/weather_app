@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@300;400;500;600;800&display=swap&family=Roboto&family=Roboto+Slab:wght@300;400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url("thunder-lightning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    overflow: hidden;
+}
+
+.heading {
+    background: rgb(252, 252, 252, 0.5);
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    width: 25vw;
+    font-weight: bolder;
+    margin: 15px auto;
+}
+
+.main {
+    text-align: center;
+    width: 25vw;
+    margin: 70px auto;
+    background: rgb(252, 252, 252, 0.5);
+    padding: 30px;
+}
+
+.main>* {
+    margin-bottom: 20px;
+}
+
+.searchBox {
+    display: inline-block;
+}
+
+button {
+    width: 15%;
+    background-color: rgb(252, 252, 252, 0.5);
+    border: none;
+
+    color: black;
+    font-size: 1.2rem;
+    padding: 0px 5px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.inputBox {
+    width: 80%;
+    background-color: rgb(252, 252, 252, 0.5);
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inputBox:focus {
+    background: rgb(252, 252, 252);
+}
+
+.weatherbody {
+    display: none;
+    color: black;
+    height: 40vh;
+    background-color: rgb(252, 252, 252, 0.8);
+    border-radius: 10px;
+    line-height: 2rem;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.location-detail {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.weatherstatus {
+    padding: 15px;
+}
+
+.temp {
+    font-size: 4rem;
+    margin: 10px 0px;
+    font-weight: 700;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.minmax,
+.weather {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
