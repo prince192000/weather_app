@@ -1,0 +1,182 @@
+@media only screen and (max-width:399px) {
+    .heading {
+        text-align: center;
+        font-size: 1.2rem;
+        width: 100%;
+        font-weight: bolder;
+    }
+
+    .main {
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .main>* {
+        margin-bottom: 20px;
+    }
+
+    .weatherbody {
+        height: 45vh;
+    }
+
+    .location-detail {
+        font-size: 1rem;
+    }
+
+    .minmax {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 600px) and (min-width:400px) {
+    .heading {
+        text-align: center;
+        font-size: 1.8rem;
+        width: 90vw;
+    }
+    .inputBox {
+        font-size: 1.5rem;
+        padding: 0px 30px;
+      font-weight: bolder;
+    }
+    .main {
+        text-align: center;
+        width: 90vw;
+        padding: 20px;
+    }
+    .weatherbody {
+        height: 35vh;
+    }
+
+    .location-detail {
+        font-size: 1.4rem;
+    }
+    .minmax, .weather {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 960px) and (min-width:600px) {
+    .heading {
+        text-align: center;
+        font-size: 2rem;
+        width:55vw;
+    }
+    .inputBox {
+        font-size: 1.5rem;
+        padding: 0px 40px;
+      font-weight: bolder;
+    }
+    button{
+      font-size: 1.2rem;
+    }
+    .main {
+        text-align: center;
+        width:60vw;
+        padding: 30px;
+    }
+    .weatherbody {
+        height: 45vh;
+    }
+
+    .location-detail {
+        font-size: 1.4rem;
+    }
+    .minmax, .weather {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width:960px)and (max-width:1300px){
+    .heading {
+        font-size: 2.5rem;
+        width:40vw;
+    }
+    .main {
+        width: 40vw;
+    }
+    button {
+        font-size: 1.8rem;
+        padding: 0px 10px;
+        height: 45px;
+    }
+    .inputBox {
+        font-size: 1.8rem;
+        padding: 0px 40px;
+        height: 45px;
+    }
+    .location-detail {
+        font-size: 1.5rem;
+    }
+    .weatherstatus {
+        padding: 20px;
+    }
+    .temp {
+        font-size: 4rem;
+    }
+    .minmax,
+    .weather {
+        font-size: 1.5rem;
+    }
+}
+
+
+    
+      
+   
+ 
+       
+    
+
+    
+
+    
+
+       
+    
+     
+   
+    
+
+    
+
+    
+
+ 
+    
+
+
+    
+
+ 
+        
+    
+    
+
+    
+
+       
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
